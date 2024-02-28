@@ -26,6 +26,7 @@ module.exports = {
     '@typescript-eslint/no-misused-promises': 0,
     '@typescript-eslint/no-floating-promises': 0,
     '@typescript-eslint/ban-ts-comment': 0,
+    "prettier/prettier": "off",
     'no-tabs': 0,
   },
 };
