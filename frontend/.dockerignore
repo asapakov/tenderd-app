@@ -1,0 +1,1 @@
+# Ignore node_modules directorynode_modules# Ignore development and build artifactsnpm-debug.logyarn-error.log.DS_Store*.log*.test.js*.spec.jscoverage/*.swp# Ignore editor-specific files.idea/.vscode/# Ignore build output/build/dist/coverage
