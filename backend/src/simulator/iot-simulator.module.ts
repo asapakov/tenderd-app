@@ -33,9 +33,9 @@ export class IotSimulatorModule implements OnModuleInit {
       return;
     }
     // Get actual vehicles list
-    setTimeout(() => {
+    setInterval(() => {
       return this.simulatorService.getActualVehiclesList();
-    }, 1000);
+    }, this.iotDataInterval);
 
     // Set up an interval to call the simulateIoTData method every 10 seconds
     const iot_job = setInterval(() => {
