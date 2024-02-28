@@ -1,7 +1,7 @@
 import axios from 'axios';
 import { type IVehicle } from '../../interface';
 
-const BACKEND_URL = `http://localhost:${process.env.REACT_APP_BACKEND_PORT}/api`;
+const BACKEND_URL = `http://localhost:${process.env.REACT_APP_BACKEND_PORT || 8001}/api`;
 console.log(
   process.env.REACT_APP_BACKEND_PORT,
   'process.env.REACT_APP_BACKEND_PORT',
